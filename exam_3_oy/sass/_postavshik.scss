@@ -1,0 +1,265 @@
+.vostok {
+    color: #363738;
+    font-family: "Exo 2";
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    /* 65px */
+    margin-bottom: 35px;
+}
+
+.kitay {
+    color: #6B6B6C;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+.postavshik__left__right {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-left: 50px;
+    padding-top: 80px;
+}
+
+.uz {
+    color: #363738;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    /* 24px */
+}
+
+.chiziq {
+    width: 104px;
+    height: 3px;
+    background: #FFCE50;
+}
+
+.lines {
+    margin-top: 40px;
+}
+
+.gruz {
+    width: 500px;
+}
+
+.logos {
+    margin-bottom: 24px;
+}
+
+.card__title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #363738;
+    line-height: 135%;
+    font-style: normal;
+    margin-bottom: 20px;
+    font-family: "Exo 2";
+}
+
+.card__titles {
+    color: #6B6B6C;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+.postavshik__cards {
+    width: 1140px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    gap: 50px;
+}
+
+.line {
+    width: 1px;
+    height: 261px;
+    background: #D7D7DD;
+}
+
+.postavshik__card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+@media(max-width:1350px) {
+    .postavshik__left__right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .chiziq {
+        margin: 0 auto;
+    }
+
+    .gruz {
+        margin-top: 70px;
+        width: 100%;
+    }
+
+    .postavshik__cards {
+        width: 100%;
+    }
+}
+
+@media(max-width:1230px) {
+    .postavshik__cards {
+        flex-direction: column;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .postavshik__card {
+        border-radius: 20px;
+        background: #FFF;
+        box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+        width: 690px;
+        height: 164px;
+        flex-shrink: 0;
+    }
+
+    .card__info {
+        display: flex;
+        gap: 50px;
+        padding-left: 20px;
+    }
+
+    .postavshik__cards {
+        box-shadow: none;
+    }
+}
+
+@media(max-width:953px) {
+    .vostok {
+        color: #363738;
+        text-align: center;
+        font-family: "Exo 2";
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 125%;
+        /* 55px */
+        width: 100% !important;
+    }
+}
+
+@media(max-width:793px) {
+    .vostok {
+        font-size: 32px;
+    }
+
+    .postavshik__left__right {
+        padding-left: 0 !important;
+        padding-top: 0 !important;
+    }
+
+    .postavshik__card{
+        margin-bottom: 20px;
+    }
+
+}
+
+@media(max-width:713px) {
+    .kitay {
+        font-size: 12px;
+    }
+
+    .postavshik__card {
+        width: 100%;
+    }
+}
+
+@media(max-width:695px) {
+    .card__info {
+        padding-top: 70px !important;
+        flex-direction: column !important;
+    }
+
+    .logos {
+        width: 68px;
+        height: 68px;
+        flex-shrink: 0;
+        margin-bottom: 0;
+    }
+    .postavshik__cards{
+        box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+    }
+    .postavshik__card{
+        background: none;
+        box-shadow: none;
+
+    }
+}
+
+@media(max-width:600px) {
+    .card__title {
+        font-size: 15px;
+    }
+
+    .card__titles {
+        font-size: 12px;
+    }
+
+    .logos {
+        width: 52px;
+        height: 52px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:640px) {
+    .vostok {
+        font-size: 25px;
+    }
+}
+
+@media(max-width:530px) {
+    .vostok {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:560px) {
+    .kitay {
+        font-size: 10px;
+    }
+}
+
+@media(max-width:490px) {
+    .kitay {
+        font-size: 8px;
+    }
+}
+
+@media(max-width:440px) {
+    .vostok {
+        font-size: 15px;
+    }
+}

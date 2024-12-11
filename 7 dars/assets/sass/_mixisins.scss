@@ -1,0 +1,39 @@
+@mixin nav_ul {
+    display: flex;
+    gap: 50px;
+    padding-top: 10px;
+}
+
+@mixin justify {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin nav_a {
+    color: #1D1D1D;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 133.333% */
+    letter-spacing: 0.18px;
+    text-transform: capitalize;
+}
+
+@mixin contc {
+    width: 185px;
+    height: 48px;
+    border-radius: 24px;
+    border: 1px solid #377DFF;
+    background-color: transparent;
+    color: #377DFF;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.16px;
+}

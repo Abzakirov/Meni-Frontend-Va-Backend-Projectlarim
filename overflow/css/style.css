@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+.box {
+    background-color: #743874;
+    color: #fff;
+    margin: 50px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    width: 400px;
+}

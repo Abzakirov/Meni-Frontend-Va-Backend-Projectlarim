@@ -1,0 +1,511 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 30px;
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1240px;
+  }
+}
+.nav__left__right, .nav__ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__ul {
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.nav__a {
+  color: #363738;
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+  transition: 0.4s;
+  /* 25px */
+}
+
+.nav__a:hover {
+  color: rgb(0, 110, 255);
+  transition: 0.4s;
+}
+
+.logo__1 {
+  width: 330px;
+}
+
+.menu-btn {
+  display: none;
+}
+
+.menu-btn {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.menu-btn span {
+  width: 30px;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #000000;
+  transition: all 0.5s;
+  transform: translate(-50%, -50%);
+}
+
+.menu-btn span:nth-of-type(2) {
+  top: calc(50% - 5px);
+}
+
+.menu-btn span:nth-of-type(3) {
+  top: calc(50% + 5px);
+}
+
+.menu-btn.active span:nth-of-type(1) {
+  display: none;
+}
+
+.menu-btn.active span:nth-of-type(2) {
+  top: 50%;
+  transform: translate(-50%, 0%) rotate(45deg);
+}
+
+.menu-btn.active span:nth-of-type(3) {
+  top: 50%;
+  transform: translate(-50%, 0%) rotate(-45deg);
+}
+
+@media (max-width: 897px) {
+  .nav__ul {
+    padding: 25px;
+  }
+  .logo__1 {
+    width: 200px;
+  }
+}
+@media (max-width: 775px) {
+  .nav__ul {
+    display: none;
+  }
+  .menu-btn {
+    display: block;
+    margin-top: 10px;
+  }
+  .menu-btn {
+    color: #000000;
+  }
+  .nav__ul.active {
+    display: block;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    font-size: 35px;
+    background-color: rgb(129, 127, 255);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .nav__a {
+    color: #fff !important;
+  }
+  .nav__ul {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    padding-top: 80px;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 90vh;
+  }
+}
+@media (max-width: 350px) {
+  .logo__1 {
+    width: 150px;
+  }
+}
+.vostok {
+  color: #363738;
+  font-family: "Exo 2";
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+  /* 65px */
+  margin-bottom: 35px;
+}
+
+.kitay {
+  color: #6B6B6C;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 24px */
+}
+
+.postavshik__left__right {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-left: 50px;
+  padding-top: 80px;
+}
+
+.uz {
+  color: #363738;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  /* 24px */
+}
+
+.chiziq {
+  width: 104px;
+  height: 3px;
+  background: #FFCE50;
+}
+
+.lines {
+  margin-top: 40px;
+}
+
+.gruz {
+  width: 500px;
+}
+
+.logos {
+  margin-bottom: 24px;
+}
+
+.card__title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #363738;
+  line-height: 135%;
+  font-style: normal;
+  margin-bottom: 20px;
+  font-family: "Exo 2";
+}
+
+.card__titles {
+  color: #6B6B6C;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 24px */
+}
+
+.postavshik__cards {
+  width: 1140px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #FFF;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  gap: 50px;
+}
+
+.line {
+  width: 1px;
+  height: 261px;
+  background: #D7D7DD;
+}
+
+.postavshik__card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+
+@media (max-width: 1350px) {
+  .postavshik__left__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .chiziq {
+    margin: 0 auto;
+  }
+  .gruz {
+    margin-top: 70px;
+    width: 100%;
+  }
+  .postavshik__cards {
+    width: 100%;
+  }
+}
+@media (max-width: 1230px) {
+  .postavshik__cards {
+    flex-direction: column;
+  }
+  .line {
+    display: none;
+  }
+  .postavshik__card {
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+    width: 690px;
+    height: 164px;
+    flex-shrink: 0;
+  }
+  .card__info {
+    display: flex;
+    gap: 50px;
+    padding-left: 20px;
+  }
+  .postavshik__cards {
+    box-shadow: none;
+  }
+}
+@media (max-width: 953px) {
+  .vostok {
+    color: #363738;
+    text-align: center;
+    font-family: "Exo 2";
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    /* 55px */
+    width: 100% !important;
+  }
+}
+@media (max-width: 793px) {
+  .vostok {
+    font-size: 32px;
+  }
+  .postavshik__left__right {
+    padding-left: 0 !important;
+    padding-top: 0 !important;
+  }
+  .postavshik__card {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 713px) {
+  .kitay {
+    font-size: 12px;
+  }
+  .postavshik__card {
+    width: 100%;
+  }
+}
+@media (max-width: 695px) {
+  .card__info {
+    padding-top: 70px !important;
+    flex-direction: column !important;
+  }
+  .logos {
+    width: 68px;
+    height: 68px;
+    flex-shrink: 0;
+    margin-bottom: 0;
+  }
+  .postavshik__cards {
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+  }
+  .postavshik__card {
+    background: none;
+    box-shadow: none;
+  }
+}
+@media (max-width: 600px) {
+  .card__title {
+    font-size: 15px;
+  }
+  .card__titles {
+    font-size: 12px;
+  }
+  .logos {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 640px) {
+  .vostok {
+    font-size: 25px;
+  }
+}
+@media (max-width: 530px) {
+  .vostok {
+    font-size: 20px;
+  }
+}
+@media (max-width: 560px) {
+  .kitay {
+    font-size: 10px;
+  }
+}
+@media (max-width: 490px) {
+  .kitay {
+    font-size: 8px;
+  }
+}
+@media (max-width: 440px) {
+  .vostok {
+    font-size: 15px;
+  }
+}
+.namis {
+  background: url(../img/nami.svg);
+  width: 1140px;
+  height: 453px;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  z-index: -300;
+  position: absolute;
+}
+
+.yashil {
+  background: url(../img/yashil.svg);
+  width: 769px;
+  height: 453px;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.yashils {
+  display: grid;
+  grid-template-columns: 50% 80%;
+}
+
+.nmis {
+  color: #FFF;
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+  /* 60px */
+  padding-top: 170px;
+  padding-left: 90px;
+}
+
+.namis__cards {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.nami__card__left__right {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.amet {
+  color: #363738;
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 135%;
+  /* 27px */
+}
+
+.sit {
+  margin-top: 16px;
+  color: #6B6B6C;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 24px */
+}
+
+@media (max-width: 1230px) {
+  .yashils {
+    margin-top: 240px;
+  }
+  .yashil {
+    width: 700px;
+  }
+  .namis {
+    width: 929px;
+  }
+}
+@media (max-width: 1015px) {
+  .yashil {
+    width: 600px;
+  }
+  .namis {
+    width: 829px;
+  }
+}
+@media (max-width: 950px) {
+  .namis__cards {
+    grid-template-columns: repeat(1, 1fr);
+    width: 90%;
+  }
+  .nami__card__left__right {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+  }
+}
+@media (max-width: 915px) {
+  .yashil {
+    width: 500px;
+  }
+  .namis {
+    width: 729px;
+  }
+}
+@media (max-width: 850px) {
+  .yashil {
+    display: none;
+  }
+  .namis {
+    display: none;
+  }
+}
+@media (max-width: 540px) {
+  .amet {
+    font-size: 18px;
+  }
+  .sit {
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

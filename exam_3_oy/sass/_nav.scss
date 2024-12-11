@@ -1,0 +1,139 @@
+.nav__left__right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__ul {
+    @extend .nav__left__right;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.nav__a {
+    color: #363738;
+    font-family: "Exo 2";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    transition: 0.4s;
+    /* 25px */
+}
+
+.nav__a:hover {
+    color: rgb(0, 110, 255);
+    transition: 0.4s;
+}
+
+.logo__1 {
+    width: 330px;
+}
+
+.menu-btn {
+    display: none;
+}
+
+.menu-btn {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.menu-btn span {
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #000000;
+    transition: all 0.5s;
+    transform: translate(-50%, -50%);
+}
+
+.menu-btn span:nth-of-type(2) {
+    top: calc(50% - 5px);
+}
+
+.menu-btn span:nth-of-type(3) {
+    top: calc(50% + 5px);
+}
+
+
+.menu-btn.active span:nth-of-type(1) {
+    display: none;
+}
+
+.menu-btn.active span:nth-of-type(2) {
+    top: 50%;
+    transform: translate(-50%, 0%) rotate(45deg);
+}
+
+.menu-btn.active span:nth-of-type(3) {
+    top: 50%;
+    transform: translate(-50%, 0%) rotate(-45deg);
+}
+
+@media(max-width:897px) {
+    .nav__ul {
+        padding: 25px;
+    }
+
+    .logo__1 {
+        width: 200px;
+    }
+}
+
+@media(max-width:775px) {
+
+
+
+    .nav__ul {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .menu-btn {
+
+        color: #000000;
+    }
+
+    .nav__ul.active {
+        display: block;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        font-size: 35px;
+        background-color: rgb(129, 127, 255);
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .nav__a {
+        color: #fff !important;
+    }
+
+    .nav__ul {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        padding-top: 80px;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 90vh;
+    }
+}
+
+@media(max-width:350px){
+    .logo__1{
+        width: 150px;
+    }
+}
