@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #000;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    padding-bottom: 30px;
+}
+
+.line {
+    color: #7D7987;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    padding-bottom: 40px;
+    width: 434px;
+}
+
+.healthcare {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.btn {
+    width: 201.918px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 55px;
+    border: 1.4px solid #458FF6;
+    color: #458FF6;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: white;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.right {
+    width: 440px;
+    height: 390px;
+  
+}
+
+.right-2 {
+    margin-top: 250px;
+    width: 440px;
+    height: 390px;
+}

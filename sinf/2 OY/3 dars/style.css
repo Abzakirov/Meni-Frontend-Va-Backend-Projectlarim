@@ -1,0 +1,30 @@
+
+div,
+div::before
+div::after {
+    width: 100px;
+    height: 10px;
+    background-color: black;
+}
+div{
+    position: relative;
+}
+div::before,
+div::after{
+    position: absolute;
+    content: "";
+}
+div::before{
+    top: -20px;
+    background-color: aqua;
+}
+div::after{
+    bottom: -20px;
+    background-color: red;
+}
+body{
+    padding-top: 100px;
+}
+
+
+

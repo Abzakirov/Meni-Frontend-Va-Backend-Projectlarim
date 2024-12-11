@@ -1,0 +1,14 @@
+.container{
+    width: 1804px;
+    height: 984px;
+    background-image: url("img/2023-09-15\ 16.28.svg");
+}
+h1{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 11.52px;
+}

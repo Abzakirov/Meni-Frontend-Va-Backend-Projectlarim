@@ -1,0 +1,28 @@
+.container{
+    max-width: 1200px;
+    margin: 100px auto;
+    border-radius: 8px;
+    border: 2px solid black;
+    padding: 15px;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+}
+
+table{
+    width: 400px;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 2px solid black;
+    text-align: center;
+}
+th{
+    background-color: greenyellow;
+}
+td{
+    background-color: tomato;
+    color: white;
+    font-weight: 900;
+}

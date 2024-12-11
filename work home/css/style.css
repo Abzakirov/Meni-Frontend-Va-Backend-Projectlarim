@@ -1,0 +1,864 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.container_nav {
+    width: 1440px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.nov {
+    display: flex;
+    gap: 70px;
+}
+
+.nav_ul {
+    display: flex;
+    gap: 52px;
+    padding: 25px;
+}
+
+.nav_a {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.besin {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 155px;
+    height: 14px;
+    flex-shrink: 0;
+    width: 223px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 14px;
+    background: #8CBAFF;
+    box-shadow: 0px 4px 12.9px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    margin-top: 15px;
+    margin-left: 90px;
+}
+
+.img {
+    margin-top: 35px;
+    margin-left: 250px;
+}
+
+.chel {
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+}
+
+.kop {
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+}
+
+.container_header {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.all {
+    color: #1E1E1E;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 454px;
+    height: 62px;
+    flex-shrink: 0;
+}
+
+.asii {
+    width: 207px;
+    height: 62px;
+    flex-shrink: 0;
+    color: #4E95FE;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.egg {
+    width: 218px;
+    height: 23px;
+    flex-shrink: 0;
+    color: #2D2D2D;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.product {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 170px;
+    height: 27px;
+    flex-shrink: 0;
+    width: 243px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 11px;
+    background: #FFC448;
+    box-shadow: 0px 4px 17.6px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    margin-top: 86px;
+}
+
+.obshi {
+    margin-top: 230px;
+    display: flex;
+    gap: 90px;
+}
+
+.lavash {
+    width: 514.144px;
+    height: 525.359px;
+    flex-shrink: 0;
+    background: url(/img/lavash.svg)no-repeat;
+}
+
+.orqa {
+    z-index: -1;
+    width: 740px;
+    height: 919px;
+    flex-shrink: 0;
+    position: relative;
+    top: -650px;
+    left: 150px;
+}
+
+.sec {
+    color: #000;
+    font-family: Poppins;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 324px;
+    height: 100px;
+    flex-shrink: 0;
+}
+
+.delicates {
+    color: #FFC448;
+    font-family: Poppins;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.kotalog {
+    position: relative;
+    top: -550px;
+}
+
+.stek {
+
+    margin-top: 47px;
+    display: flex;
+
+    border-radius: 18px;
+    background: #FFF;
+    box-shadow: 0px 4px 18.6px 0px rgba(0, 0, 0, 0.25);
+    width: 291px;
+    height: 76px;
+    flex-shrink: 0;
+}
+
+.bef {
+    color: #1E1E1E;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 10px;
+}
+
+
+
+.salat {
+    position: relative;
+
+    top: 5px;
+    width: 90px;
+    height: 60px;
+    flex-shrink: 0;
+    box-shadow: 0px 4px 12.3px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.sat {
+    position: relative;
+    left: 15px;
+    gap: 25px;
+    top: 5px;
+    width: 90px;
+    height: 60px;
+    flex-shrink: 0;
+    box-shadow: 0px 4px 12.3px 0px rgba(0, 0, 0, 0.25);
+}
+
+.befy {
+    color: #1E1E1E;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 25px;;
+}
+
+.salatr {
+    position: relative;
+
+    top: 5px;
+    width: 90px;
+    height: 60px;
+    flex-shrink: 0;
+    box-shadow: 0px 4px 12.3px 0px rgba(0, 0, 0, 0.25);
+}
+
+.owq {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 15px;
+    left: 15px;
+}
+
+.slat {
+    position: relative;
+    width: 61px;
+    height: 67px;
+    flex-shrink: 0;
+    top: 5px;
+    left: 45px;
+
+    flex-shrink: 0;
+    box-shadow: 0px 4px 12.3px 0px rgba(0, 0, 0, 0.25);
+}
+
+.orqa_rasm {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    top: 10px;
+    left: 15px;
+}
+
+.orqo {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 5px;
+    margin-top: 10px;
+    z-index: 0;
+}
+
+.cef {
+    position: absolute;
+    left: 345px;
+    margin-top: 10px;
+}
+
+.kato {
+    display: flex;
+    gap: 40px;
+
+}
+
+.chiziq {
+    width: 77px;
+    height: 324px;
+    flex-shrink: 0;
+    border-radius: 30px 0px 0px 30px;
+    background: #EFEFEF;
+    position: relative;
+    right: 18px;
+    top: 15px;
+}
+
+.first {
+    padding: 25px;
+    position: relative;
+    top: 45px;
+}
+
+.steki {
+    margin-top: 47px;
+    display: flex;
+    gap: 50px;
+
+    border-radius: 18px;
+    background: #8CBAFF;
+    box-shadow: 0px 4px 18.6px 0px rgba(0, 0, 0, 0.25);
+
+    width: 291px;
+    height: 76px;
+    flex-shrink: 0;
+}
+
+.best {
+    position: relative;
+    top: -350px;
+    display: flex;
+    gap: 900px;
+}
+
+.bist {
+    color: #000;
+    font-family: Poppins;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.b {
+    color: #FFC448;
+    font-family: Poppins;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card {
+    width: 253.843px;
+    height: 338.779px;
+    flex-shrink: 0;
+    border-radius: 13.513px;
+    background: #FFF;
+    box-shadow: 0px 3.861px 25.191px 0px rgba(0, 0, 0, 0.25);
+}
+
+.shash {
+    width: 253.843px;
+    height: 172.768px;
+    flex-shrink: 0;
+}
+
+.jef {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 17.373px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.paket {
+    background-color: #FFC448;
+    border-radius: 15px;
+}
+
+.bitta_div {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.zvezda {
+    margin-top: 13px;
+}
+
+.yulduzlar {
+    margin-top: 15px;
+    margin-left: 25px;
+    display: flex;
+    gap: 100px;
+}
+
+.paket {
+    width: 27.025px;
+    height: 27.025px;
+    flex-shrink: 0;
+}
+
+.dollar {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 19.304px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cards {
+    position: relative;
+    top: -200px;
+    display: flex;
+    gap: 62px;
+}
+
+.kards {
+    display: flex;
+    gap: 62px;
+    position: relative;
+    top: -10px;
+}
+
+.fest {
+    display: flex;
+    gap: 900px;
+    position: relative;
+    top: -50px;
+}
+
+.dop {
+    color: #FFCC60;
+    font-family: Montserrat;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pup {
+    color: #1E1E1E;
+    font-family: Montserrat;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sped {
+    padding: 100px;
+}
+
+.chap {
+    padding-left: 85px;
+}
+
+.shashluk {
+    width: 510.504px;
+    height: 500px;
+    flex-shrink: 0;
+}
+
+.give {
+    display: flex;
+    gap: 200px;
+}
+
+.lesw {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.tasty {
+    width: 76.552px;
+    height: 29.664px;
+    flex-shrink: 0;
+    border-radius: 10.526px;
+    background: #E7E7E7;
+    color: #1E1E1E;
+    font-family: Montserrat;
+    font-size: 11.483px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+}
+
+.fast {
+    width: 119.612px;
+    height: 29.664px;
+    flex-shrink: 0;
+    border-radius: 10.526px;
+    background: #E7E7E7;
+    color: #1E1E1E;
+    font-family: Montserrat;
+    font-size: 11.483px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+}
+
+.high {
+    border: none;
+    width: 120.569px;
+    height: 29.664px;
+    flex-shrink: 0;
+    border-radius: 10.526px;
+    background: #E7E7E7;
+    color: #1E1E1E;
+    font-family: Montserrat;
+    font-size: 11.483px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.cati {
+    width: 482px;
+    height: 106px;
+    flex-shrink: 0;
+    color: #1E1E1E;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.read {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12.605px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 10.504px;
+    background: #FFC448;
+    box-shadow: 0px 4.202px 4.202px 0px rgba(0, 0, 0, 0.25);
+    width: 150.21px;
+    height: 37.815px;
+    flex-shrink: 0;
+    border: none;
+    position: relative;
+    top: 30px;
+}
+
+.pr {
+    position: relative;
+    top: 100px;
+}
+
+.bottom {
+    position: relative;
+    top: 25px;
+}
+
+.vive {
+    display: flex;
+    justify-self: end;
+}
+
+.lom {
+    display: flex;
+}
+
+.onge {
+    margin-top: 80px;
+    display: flex;
+    gap: 200px;
+}
+
+.jjjl {
+    position: relative;
+    top: 100px;
+}
+
+.pre {
+    padding-top: 70px;
+    padding-left: 90px;
+}
+
+.bout {
+    color: #FFC448;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.rev {
+    color: #FFC448;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.client {
+    color: #1E1E1E;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.spanlar {
+    margin-top: 50px;
+    padding: 100px;
+}
+
+.ikm {
+    display: flex;
+    justify-content: space-between;
+}
+
+.levo {
+    background: url(/img/cap.svg), lightgray 50% / contain no-repeat;
+    background-color: yellow;
+    width: 20.4px;
+    height: 20.4px;
+    border-radius: 10px;
+}
+
+.provo {
+    background: url(/img/on.svg), lightgray 50% / contain no-repeat;
+    background-color: yellow;
+    width: 20.4px;
+    border-radius: 10px;
+    height: 20.4px;
+}
+
+.koradiv {
+    background: #FFF;
+    box-shadow: 0px 4px 19.8px 0px rgba(0, 0, 0, 0.25);
+    width: 446px;
+    height: 275px;
+    flex-shrink: 0;
+}
+
+.mikeyulduz {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    top: -80px;
+    left: 290px;
+}
+
+.mni {
+    padding: 32px 33px;
+
+}
+
+.witten {
+    margin-top: 25px;
+    width: 372px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.miki {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.container_footer {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.yeor {
+    padding: 100px;
+}
+
+.laga {
+    color: #FFC448;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+footer {
+    margin: 0 auto;
+    background: #8CBAFF;
+    width: 1440px;
+    height: 381px;
+    flex-shrink: 0;
+}
+
+.uk {
+    padding: 25px 0 25px;
+    width: 323px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.follow {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.pdpiska {
+    margin-top: px;
+    padding: 10px 0 100px;
+}
+
+.fasebook {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.uor {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 137px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
+.companiya {
+    position: relative;
+    top: -300px;
+    left: 600px;
+    display: flex;
+    gap: 80px;
+}
+
+.nomer {
+    display: flex;
+    position: relative;
+    top: -270px;
+    left: 600px;
+    gap: 30px;
+}
+
+.manbur {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    /* 250% */
+}
+
+.omer {
+    display: flex;
+    position: relative;
+    top: -250px;
+    left: 600px;
+    gap: 50px;
+}
+
+.mer {
+    display: flex;
+    position: relative;
+    top: -230px;
+    left: 600px;
+    gap: 50px;
+}
+
+.oxirgisi {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    /* 250% */
+    text-align: center;
+    position: relative;
+    top: -220px;
+}
+
+
+.manebur {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 187.5% */
+
+
+
+    position: relative;
+    left: 50px;
+    top: -25px;
+}
+
+.manrbur {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 187.5% */
+    position: relative;
+    left: 50px;
+    top: -25px;
+}
+
+.manybur {
+    position: relative;
+    left: 270px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 187.5% */
+    position: relative;
+    top: -45px;
+}
+
+.noemer {
+    display: flex;
+    position: relative;
+    top: -250px;
+    left: 600px;
+    gap: 80px;
+}

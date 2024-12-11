@@ -1,0 +1,20 @@
+.box{
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item{
+    border-radius: 5px;
+    width: 20px;
+    background-color: black;
+    opacity: 0.4;
+    text-align: center;
+    color: aqua;
+    font-size: 10px;
+    padding: 5px 0px;
+}
+    .item:nth-child(4n){
+        background-color:red
+        
+    }

@@ -1,0 +1,36 @@
+<svg width="56" height="57" viewBox="0 0 56 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="56" height="57" fill="#F2F2F2"/>
+<g id="About - Desktop" clip-path="url(#clip0_0_1)">
+<rect width="1440" height="1832" transform="translate(-314 -946)" fill="white"/>
+<g id="Group 8 Copy + Group 8 Mask" clip-path="url(#clip1_0_1)">
+<rect id="Mask" x="-314" y="-429" width="1440" height="1002" fill="#004047"/>
+<mask id="mask0_0_1" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-314" y="-429" width="1440" height="1002">
+<rect id="Mask_2" x="-314" y="-429" width="1440" height="1002" fill="white"/>
+</mask>
+<g mask="url(#mask0_0_1)">
+</g>
+</g>
+<g id="Group 19">
+<g id="Group 18">
+<g id="Group 14" clip-path="url(#clip2_0_1)">
+<rect id="Rectangle" x="-147" y="-236.382" width="350" height="274.726" fill="#012F34"/>
+<g id="Group 13">
+<circle id="Oval" cx="28" cy="28.6177" r="28" fill="#F67E7E"/>
+<path id="Combined Shape" fill-rule="evenodd" clip-rule="evenodd" d="M30 20.6177H26V26.6177H20V30.6177H26V36.6177H30V30.6177H36V26.6177H30V20.6177Z" fill="#012F34"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="1440" height="1832" fill="white" transform="translate(-314 -946)"/>
+</clipPath>
+<clipPath id="clip1_0_1">
+<rect width="1440" height="1002" fill="white" transform="translate(-314 -429)"/>
+</clipPath>
+<clipPath id="clip2_0_1">
+<rect width="350" height="305.13" fill="white" transform="translate(-147 -236.382)"/>
+</clipPath>
+</defs>
+</svg>

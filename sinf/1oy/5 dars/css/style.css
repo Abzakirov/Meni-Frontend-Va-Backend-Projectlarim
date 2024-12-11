@@ -1,0 +1,27 @@
+body{
+    background-color: azure;
+}
+
+.info{
+    background-color: blue;color: white;
+text-align: center;
+text-transform: capitalize;
+
+}
+
+.h3{
+    background-color: aqua;color: red;
+    text-transform: uppercase;
+text-align: center;
+
+}
+
+.mars{
+    text-decoration: none;
+}
+
+.uz{
+    text-align: center;
+    font-size: 40px;
+
+}

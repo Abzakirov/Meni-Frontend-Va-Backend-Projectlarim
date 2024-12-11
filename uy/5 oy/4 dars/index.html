@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>№</th>
+                    <th>Ism</th>
+                    <th>Familiya</th>
+                    <th>Ball</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+                <tr>
+                    <td>1</td>
+                    <td>Umid</td>
+                    <td>Sardorov</td>
+                    <td>55</td>
+                    <td><button onclick="deleterow(this)">Delete</button></td>
+                </tr>
+              
+            </tbody>
+        </table>
+
+        <div class="inputs">
+            <form action="#" id="myForm">
+                <label for="name">Ism</label>
+                <input type="text" name="" id="name" required>
+
+                <label for="name">Familiya</label>
+                <input type="text" name="" id="surname" required>
+
+
+                <label for="name">Ball</label>
+                <input type="number" name="" id="mark" required>
+                <button id="myBtn">add</button>
+            </form>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

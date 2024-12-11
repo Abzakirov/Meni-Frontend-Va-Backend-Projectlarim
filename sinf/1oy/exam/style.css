@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.many {
+    display: flex;
+    align-items: center;
+}
+
+.right {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+
+.info {
+    color: var(--800, #2D3748);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.h1 {
+    color: var(--900, #1A202C);
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.email {
+    color: var(--700, #4A5568);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.password {
+    color: var(--700, #4A5568);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.box {
+    display: flex;
+}
+
+.a{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 347px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #04C35C;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+
+.btn-2 {
+    width: 347px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: var(--800, #2D3748);
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.p{
+    margin-top: 100px;
+} 
+
+.input_my{
+    height: 40px;
+}

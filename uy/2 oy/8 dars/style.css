@@ -1,0 +1,63 @@
+.kvadrat {
+    width: 250px;
+    height: 250px;
+    margin: 100px auto;
+  }
+  
+  .kvadrat .sk-cube {
+    width: 33%;
+    height: 33%;
+    background-color: blue;
+    border-radius: 1%;
+    float: left;
+    animation: kubik 1.3s infinite ease-in-out;
+  }
+  .kvadrat .sk-cube1 {
+    animation-delay: 0.2s;
+  }
+  .kvadrat .sk-cube2 {
+    animation-delay: 0.3s;
+  }
+  .kvadrat .sk-cube3 {
+    animation-delay: 0.4s;
+  }
+  .kvadrat .sk-cube4 {
+    animation-delay: 0.1s;
+  }
+  .kvadrat .sk-cube5 {
+    animation-delay: 0.2s;
+  }
+  .kvadrat .sk-cube6 {
+    animation-delay: 0.3s;
+  }
+  .kvadrat .sk-cube7 {
+    animation-delay: 0s;
+  }
+  .kvadrat .sk-cube8 {
+    animation-delay: 0.1s;
+  }
+  .kvadrat .sk-cube9 {
+    animation-delay: 0.2s;
+  }
+  
+  @keyframes kubik {
+    0%,
+    70%,
+    100% {
+      transform: scale3D(1, 1, 1);
+    }
+    35% {
+      transform: scale3D(0, 0, 1);
+    }
+  }
+  
+  @keyframes kubik {
+    0%,
+    70%,
+    100% {
+      transform: scale3D(1, 1, 1);
+    }
+    35% {
+      transform: scale3D(0, 0, 1);
+    }
+  }

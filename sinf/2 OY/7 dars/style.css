@@ -1,0 +1,25 @@
+.container{
+    width: 19000px;
+    height: 900px;
+    border: 2px solid black;
+    position: relative;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    z-index: 10;
+    
+    position: sticky  ;
+    left: 400px;
+    top: 100px;
+}
+
+.box_yellow{
+    background-color: red;
+    top: 12005px;
+    left: 14555px;
+    z-index: -12111;
+
+}

@@ -1,0 +1,19 @@
+button{
+    border: 20px;
+    border-radius: 20px;
+    background-color: aqua;
+    animation-name: knopka;
+    animation-duration: 20s;
+    animation-timing-function: ease;
+    animation-delay:2s;
+    animation-iteration-count:infinite;
+}
+@keyframes knopka{
+    0%, 100%{
+        transform:translateX(0) scale(1)  skew(0) rotate(0) ;    
+    }
+
+    50%{
+        transform: translateX(1020px) scale(2) skew(20deg) rotate(3000deg);
+    }
+}
