@@ -1,0 +1,7 @@
+SELECT TOP 5 * FROM Customers;
+
+SELECT * FROM Customers LIMIT 3;
+
+SELECT * FROM Customers FETCH FIRST 2 ROWS ONLY;
+
+SELECT * FROM Customers WHERE ROWNUM <= 5;
